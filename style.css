@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+:root{
+    --header-title-font-size: 28px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    font-family: 'Lexend Giga', serif;
+    font-weight: 60;    
+    background-color: rgb(221, 212, 212);
+}
+
+.header__title{
+    font-size: var(--header-title-font-size);
+    color: rgb(73, 73, 73);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.form__input{
+    border: 0px solid;
+    background-color: rgb(221, 212, 212);
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    padding: 0.8rem;
+}
+
+
+.form__input::placeholder{
+    color: rgb(54, 54, 54);
+}
+
+.form__input:hover{
+    background-color: rgb(194, 183, 183);
+}
